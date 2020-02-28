@@ -1,0 +1,70 @@
+body {
+    margin          : 0; 
+    background-color: rgb(253, 251, 251);
+   
+}
+a {
+    text-decoration : none;
+    color           : inherit;
+}
+
+.main-header {
+    padding         : 30px;
+    background-color: black;
+    color           : white;
+}
+.hdr-btn {
+    display         : inline-block;
+    padding         : 0 10px;
+    text-align      : center;
+    border-right    : 1px solid white;
+}
+.hdr-btn:last-child {
+    border          : none;
+}
+.main-main {
+    font-size       : 50px;
+    text-align      : center;
+    margin-top      : 100px;
+}
+.hdr-usr {
+    color           :rgb(255, 251, 0) ;
+}
+
+
+
+.login-form {
+    width           : 0;
+    min-height      : 400px;
+
+    margin          : 50px auto;
+    padding         : 20px;
+    display         : table;
+    background-color: white;
+}
+.login-form input:not([type="submit"]) {
+    width           : 300px;
+    padding         : 10px;
+    background-color: beige;
+    border          : 1px solid #eee;
+    border-radius   : 4px;
+    margin-bottom   : 10px;
+}
+.login-form label {
+    font-size       : 12px;
+}
+.login-form p {
+    text-align      : center;
+    color           : darkred;
+}
+
+.btn {
+    border          : none;
+    border-radius   : 4px;
+    padding         : 4px 10px;
+}
+
+.btn-grn {
+    background-image: linear-gradient(to bottom, green, darkgreen);
+    color           : #eee;
+}
